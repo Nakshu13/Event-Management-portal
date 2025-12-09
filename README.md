@@ -21,19 +21,23 @@ Events include: title, description, date, time, location, capacity
 Only approved events are visible to all users
 Admins can approve or reject events
 
+
 📝 Event Registrations
 Users can register for approved events
 Auto-checks capacity before registering
 Users can cancel their registration anytime
 
+
 🔍 Filters & Queries
 Filter events by date
 Filter events by location
+
 
 🧱 Clean Architecture
 Modular controllers, routes, and models
 RESTful API structure
 Easy to integrate with any frontend (HTML/JS or React)
+
 
 🛠️ Tech Stack
 Node.js
