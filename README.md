@@ -49,6 +49,7 @@ CORS
 Nodemon (dev)
 
 ⚙️ Installation & Setup
+
 1️⃣ Install dependencies
 npm install
 
@@ -67,11 +68,13 @@ npm run dev
 http://localhost:5000
 
 🧪 API Endpoints (Summary)
+
 🔐 Auth
 Method	Endpoint	Description
 POST	/api/auth/register	Register new user
 POST	/api/auth/login	Login & get JWT
 GET	/api/auth/me	Get logged-in user
+
 📅 Events
 Method	Endpoint	Description
 GET	/api/events	Get approved events
@@ -79,11 +82,13 @@ GET	/api/events/:id	Get single event
 POST	/api/events	Create event (user only)
 PUT	/api/events/:id	Update event (owner only)
 DELETE	/api/events/:id	Delete event (owner only)
+
 🛡️ Admin Only
 Method	Endpoint	Description
 GET	/api/events/admin/pending	View pending events
 PUT	/api/events/:id/approve	Approve event
 PUT	/api/events/:id/reject	Reject event
+
 📝 Registrations
 Method	Endpoint	Description
 POST	/api/registrations/register	Register for event
